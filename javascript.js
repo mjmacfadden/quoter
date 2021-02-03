@@ -2,6 +2,9 @@ var down = document.getElementById('topic');
 
 var arr = [
     //"<img src=''/><p></p><p><span></span></p>",
+    "<img src='https://images-na.ssl-images-amazon.com/images/I/81kwCg+F-QL.jpg'/><p>As an entrepreneur, you had one, maybe two, but usually not more than three chances to catch lightning in a bottle; as a venture capitalist, however, you could chase lightning as long as you had cash to invest.</p><p><span>―Ben Mezrich, Bitcoin Billionaires</span></p>",
+
+    "<img src='https://images-na.ssl-images-amazon.com/images/I/81kwCg+F-QL.jpg'/><p>Gold is valuable because of its naturally occurring properties: it’s scarce, durable, portable, divisible, fungible, hard to counterfeit, and easy to authenticate.</p><p><span>―Ben Mezrich, Bitcoin Billionaires</span></p>",
 
     "<img src='https://m.media-amazon.com/images/I/51Sn8PEXwcL._SY346_.jpg'/><p>One of history’s few iron laws is that luxuries tend to become necessities and to spawn new obligations.</p><p><span>—Yuval Noah Harari, Sapiens</span></p>",
 

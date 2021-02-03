@@ -118,22 +118,20 @@ a:active{
 }
 
 #play_button {
-    background-color: #ffc764;
+    background-color: transparent;
     color: #00293A;
     font-size: 20px;
     font-weight: bold;
-    border: 0;
-    padding: 7px 10px;
+    border: 1px solid #CCCCCC;
+    padding: 7px 20px;
     border-radius: 5px;
     margin:20px;
     cursor:pointer;
     transition:.25s;
 }
-#play_button:hover {
-    background:#ffbc48;
-}
-#play_button:active {
-    background:#ffbc48;
+#play_button:active,
+#play_button:hover{
+    background:#f8f8f8;
 }
 button:active, 
 button:focus { 
@@ -166,7 +164,7 @@ button:focus {
     max-width:600px;
     margin:0 auto;
     position:relative;
-    padding:50px 10px 0 10px;
+    padding:10px;
 }
 .footer{
     position:fixed;
@@ -225,4 +223,7 @@ DIRECTIONS
  }
 .heavy{
     font-weight:700;
+}
+.more_space{
+    margin-top:40px;
 }
