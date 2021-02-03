@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Quoter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <meta property="og:image" content="img/homescreen_logo.png" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+   
+    <!-- Apple and Andriod home screen icons -->
+    <link href="img/homescreen_logo.png" rel="apple-touch-icon" /> 
+    <link href="img/homescreen_logo.png" rel="icon" />
+    
+    <!-- Apple hide Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Apple changing the status bar appearance -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Android add to the home screen -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Apple Mobile Web App Title -->
+    <meta name="apple-mobile-web-app-title" content="Quoter">
+
+</head>
+
+<body onload="Lets_Play()">
+    <div id="instructions" class="directions hide">
+        <div class="wrapper">
+            <i class="fas fa-times-circle instructions hidden" onclick="no_instruct();"></i>
+            <h4>Directions</h4>
+            <p class="text">This app is designed, from a systems theory standpoint, to bring couples closer together who, for whatever reason aren't naturally connecting.</p>
+            <p class="text">Set a repeating calendar reminder, twice a week, to engage in a meaningful way with your partner. Use the questions present as starting points for more deeply connected conversation.</p>
+            <p class="text">Questions have been sourced from a variety of online resources linked below.</p>
+            <p class="text heavy">References:</p> 
+
+            
+        </div>
+
+    </div>
+    
+    <div class="wrapper" id="game">
+
+        <i class="fas fa-info-circle instructions" onclick="instruct();"></i>
+
+        <!--<h1>Quoter</h1>
+        <img class="header_logo" src="img/quoter_logo.png" alt="Quoter Logo" />-->
+        <h2 id="topic"></h2>
+
+
+    </div>
+
+    <div class="footer">
+        
+
+        <button id="play_button" class="glow" onclick="Lets_Play()">
+            NEXT QUOTE
+        </button>
+        <br>
+    </div>
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
